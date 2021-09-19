@@ -1,10 +1,12 @@
 import React from 'react'
 import "./styles/sidebar.css"
 
-export default function Sidebar() {
+export default function Sidebar(props) {
     return (
         <div className="sidebar">
             Sidebar
+            {props.children}
+
         </div>
     )
 }

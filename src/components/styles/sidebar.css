@@ -1,6 +1,7 @@
 .sidebar{
-    width:180px;
-    height: 400px;
+    display: inline-block;
+    /* width:180px; */
+    /* height:  */
     padding: 20px;
     margin: 15px;
     float: right;

@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useTable, usePagination } from 'react-table'
+import "./styles/table_view.css"
 
 import makeData from './makeData'
 
@@ -109,7 +110,7 @@ function Table({ columns, data, updateMyData, skipPageReset }) {
 
   // Render the UI for your table
   return (
-    <>
+    <div className="table_view">
       <table {...getTableProps()}>
         <thead>
           {headerGroups.map(headerGroup => (
@@ -177,7 +178,7 @@ function Table({ columns, data, updateMyData, skipPageReset }) {
           ))}
         </select>
       </div>
-    </>
+    </div>
   )
 }
 
@@ -222,7 +223,7 @@ function TableView() {
     []
   )
 
-  const [data, setData] = React.useState(() => makeData(20))
+  const [data, setData] = React.useState(() => makeData(70))
   const [originalData] = React.useState(data)
   const [skipPageReset, setSkipPageReset] = React.useState(false)
 

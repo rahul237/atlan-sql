@@ -64,7 +64,7 @@ function App() {
 
   return (
     <>
-    <table {...getTableProps()} style={{ border: 'solid 1px blue' }}>
+    {/* <table {...getTableProps()} style={{ border: 'solid 1px blue' }}>
       <thead>
         {headerGroups.map(headerGroup => (
           <tr {...headerGroup.getHeaderGroupProps()}>
@@ -107,8 +107,7 @@ function App() {
           )
         })}
       </tbody>
-    </table>
-    ef
+    </table> */}
     {/* <TableView/>
     <Button></Button>
     <Db_tile/>
@@ -120,9 +119,9 @@ function App() {
 
     {/* <Select_db/> */}
     {/* <View_tables/> */}
-    {/* <Query_home/> */}
+    <Query_home/>
     {/* <Chart_builder/> */}
-    <ChartView/>
+    {/* <ChartView/> */}
 
     </>
     
