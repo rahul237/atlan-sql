@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './components/table_view.js';
 
 import { useTable } from 'react-table';
 
@@ -50,6 +51,7 @@ function App() {
   } = useTable({ columns, data })
 
   return (
+    <>
     <table {...getTableProps()} style={{ border: 'solid 1px blue' }}>
       <thead>
         {headerGroups.map(headerGroup => (
@@ -94,6 +96,11 @@ function App() {
         })}
       </tbody>
     </table>
+    ef
+    <table_view/>
+
+    </>
+    
   )
 }
 
