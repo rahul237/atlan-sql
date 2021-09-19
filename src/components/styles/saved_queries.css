@@ -1,0 +1,10 @@
+.saved_queries{
+    background-color: rgba(115, 142, 163, 0.342);
+    border-radius: 10px;
+    width: 150px;
+    height: 300px;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+
+}

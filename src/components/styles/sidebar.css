@@ -1,0 +1,9 @@
+.sidebar{
+    width:180px;
+    height: 400px;
+    padding: 20px;
+    margin: 15px;
+    float: right;
+    background-color: cadetblue;
+    border-radius: 15px;
+}

@@ -1,9 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import './components/table_view.js';
+import TableView from './components/table_view.js';
+import Button from "./components/Button";
+import Db_tile from "./components/db_tile";
 
 import { useTable } from 'react-table';
+import Query_in from './components/Query_in';
+import Saved_queries from './components/Saved_queries';
+import Sidebar from './components/Sidebar';
+import Table_tile from './components/Table_tile';
+import Current_query from './components/current_query';
 
 function App() {
   const data = React.useMemo(
@@ -97,7 +104,14 @@ function App() {
       </tbody>
     </table>
     ef
-    <table_view/>
+    <TableView/>
+    <Button></Button>
+    <Db_tile/>
+    <Query_in></Query_in>
+    <Saved_queries/>
+    <Sidebar/>
+    <Table_tile/>
+    <Current_query/>
 
     </>
     

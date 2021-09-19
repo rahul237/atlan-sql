@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import TableView from './components/table_view.js';
+import App from './App.js';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <TableView />
+    <App />
 
   </React.StrictMode>,
   document.getElementById('root')
