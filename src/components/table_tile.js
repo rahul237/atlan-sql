@@ -2,10 +2,10 @@ import React from 'react'
 
 import "./styles/table_tile.css";
 
-export default function Table_tile() {
+export default function Table_tile(props) {
     return (
         <div className="table_tile">
-            Table Tile
+            {props.name}
         </div>
     )
 }

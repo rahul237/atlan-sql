@@ -1,6 +1,10 @@
 .dbTile{
     width : 100px;
     height: 100px;
-    background-color: #2026d2;
+    background-color: #b4b5e0;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    display: inline-block;
 
 }

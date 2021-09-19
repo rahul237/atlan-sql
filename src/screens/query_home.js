@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function ChartView() {
+export default function Query_home() {
     return (
         <div>
-            Chart View
+            Query Home
         </div>
     )
 }

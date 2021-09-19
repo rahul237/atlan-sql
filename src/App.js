@@ -11,6 +11,11 @@ import Saved_queries from './components/Saved_queries';
 import Sidebar from './components/Sidebar';
 import Table_tile from './components/Table_tile';
 import Current_query from './components/current_query';
+import Select_db from './screens/select_db';
+import View_tables from './screens/view_tables';
+import Query_home from './screens/query_home';
+import Chart_builder from './components/chart_builder';
+import ChartView from './components/chart_view';
 
 function App() {
   const data = React.useMemo(
@@ -104,14 +109,20 @@ function App() {
       </tbody>
     </table>
     ef
-    <TableView/>
+    {/* <TableView/>
     <Button></Button>
     <Db_tile/>
     <Query_in></Query_in>
     <Saved_queries/>
     <Sidebar/>
     <Table_tile/>
-    <Current_query/>
+    <Current_query/> */}
+
+    {/* <Select_db/> */}
+    {/* <View_tables/> */}
+    {/* <Query_home/> */}
+    {/* <Chart_builder/> */}
+    <ChartView/>
 
     </>
     

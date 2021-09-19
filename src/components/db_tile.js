@@ -1,10 +1,10 @@
 import React from 'react'
 import "./styles/db_tile.css";
 
-export default function Db_tile() {
+export default function Db_tile(props) {
     return (
         <div className="dbTile">
-            efdw
+            {props.name}
         </div>
     )
 }
