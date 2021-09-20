@@ -1,26 +1,14 @@
 import React from 'react'
-import Db_tile from '../components/db_tile'
+import DbTile from '../components/db_tile'
 
 
-export default function Select_db() {
+
+export default function SelectDb() {
     return (
         <div>
             Select Database
             <div>
-                <Db_tile name = "States"/>
-                <Db_tile name = "Countries"/>
-                <Db_tile name = "States"/>
-                <Db_tile name = "Countries"/>
-                <Db_tile name = "States"/>
-                <Db_tile name = "Countries"/>
-                <Db_tile name = "States"/>
-                <Db_tile name = "Countries"/>
-                <Db_tile name = "States"/>
-                <Db_tile name = "Countries"/>
-                <Db_tile name = "States"/>
-                <Db_tile name = "Countries"/>
-                <Db_tile name = "States"/>
-                <Db_tile name = "Countries"/>
+                <DbTile></DbTile>
 
             </div>
         </div>

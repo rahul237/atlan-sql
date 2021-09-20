@@ -1,21 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
-import TableView from './components/table_view.js';
-import Button from "./components/Button";
-import Db_tile from "./components/db_tile";
+
 
 import { useTable } from 'react-table';
-import Query_in from './components/Query_in';
-import Saved_queries from './components/Saved_queries';
-import Sidebar from './components/Sidebar';
-import Table_tile from './components/Table_tile';
-import Current_query from './components/current_query';
-import Select_db from './screens/select_db';
-import View_tables from './screens/view_tables';
-import Query_home from './screens/query_home';
-import Chart_builder from './components/chart_builder';
-import ChartView from './components/chart_view';
+
+import QueryHome from './screens/query_home';
+
 
 function App() {
   const data = React.useMemo(
@@ -119,7 +110,7 @@ function App() {
 
     {/* <Select_db/> */}
     {/* <View_tables/> */}
-    <Query_home/>
+    <QueryHome/>
     {/* <Chart_builder/> */}
     {/* <ChartView/> */}
 

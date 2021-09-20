@@ -1,10 +1,10 @@
 .sidebar{
-    display: inline-block;
+    display: inline;
     /* width:180px; */
     /* height:  */
     padding: 20px;
     margin: 15px;
     float: right;
-    background-color: cadetblue;
+    background-color: #cfcfe2;
     border-radius: 15px;
 }

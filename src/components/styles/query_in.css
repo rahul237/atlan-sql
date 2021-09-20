@@ -1,0 +1,11 @@
+.query_field{
+    display: inline-block;
+    height: 35px;
+    width: 300px;;
+    margin: 10px;
+}
+
+.query_container{
+    display: flex;
+    justify-content: center;
+}

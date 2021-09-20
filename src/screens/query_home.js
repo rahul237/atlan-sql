@@ -1,24 +1,30 @@
 import React from 'react'
-import Button from '../components/Button'
-import Chart_builder from '../components/chart_builder'
-import Current_query from '../components/current_query'
-import Query_in from '../components/Query_in'
-import Saved_queries from '../components/Saved_queries'
+import ChartBuilder from '../components/chart_builder'
+import CurrentQuery from '../components/current_query'
+import QueryIn from '../components/Query_in'
+import SavedQueries from '../components/Saved_queries'
 import Sidebar from '../components/Sidebar'
 import TableView from '../components/table_view'
 
-export default function Query_home() {
+import "./styles/query_home.css"
+
+export default function QueryHome() {
     return (
         <div>
-            Query Home
-            <Query_in/>
-            <Button/>
-            <TableView/>
+            {/* Query Home */}
+
+            <div id="side">
             <Sidebar>
-                <Current_query/>
-                <Saved_queries/>
-                <Chart_builder/>
+                <CurrentQuery/>
+                <SavedQueries/>
+                <ChartBuilder/>
             </Sidebar>
+            </div>
+            <div id="main">
+            <QueryIn/>
+            <TableView/>
+            </div>
+
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Chart_builder() {
+export default function ChartBuilder() {
     return (
         <div>
             Chart Builder
