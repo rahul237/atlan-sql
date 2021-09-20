@@ -3,8 +3,14 @@ import "./styles/saved_queries.css";
 
 export default function SavedQueries() {
     return (
-        <div className="saved_queries">
+        <div>
             Saved Queries
+            <div className="saved_queries">
+                GET ALL ROWS
+                MAKE BED FAST 
+                CLEAR ALL TABLES
+            </div>
         </div>
+
     )
 }
