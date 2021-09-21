@@ -225,7 +225,7 @@ function TableView() {
     []
   )
 
-  const [data, setData] = React.useState(() => makeData(70))
+  const [data, setData] = React.useState(() => makeData(30))
   const [originalData] = React.useState(data)
   const [skipPageReset, setSkipPageReset] = React.useState(false)
 
