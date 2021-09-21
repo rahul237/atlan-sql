@@ -6,10 +6,12 @@ import "./styles/table_view.css"
 import makeData from './makeData'
 
 const Styles = styled.div`
-  padding: 1rem;
+  // padding: 1rem;
   table {
+    overflow-x:auto;
     border-spacing: 0;
-    border: 1px solid black;
+    border: 1px solid gray;
+    // tr:nth-child(even) {background-color: #f2f2f2;}
     tr {
       :last-child {
         td {
@@ -21,8 +23,8 @@ const Styles = styled.div`
     td {
       margin: 0;
       padding: 0.5rem;
-      border-bottom: 1px solid black;
-      border-right: 1px solid black;
+      border-bottom: 1px solid gray;
+      border-right: 1px solid gray;
       :last-child {
         border-right: 0;
       }
@@ -262,13 +264,16 @@ function TableView() {
 
   return (
     <Styles>
-      <button onClick={resetData}>Reset Data</button>
+      {/* <button onClick={resetData}>Reset Data</button> */}
+      <div id="table_container">
       <Table
         columns={columns}
         data={data}
         updateMyData={updateMyData}
         skipPageReset={skipPageReset}
       />
+        </div>
+
     </Styles>
   )
 }

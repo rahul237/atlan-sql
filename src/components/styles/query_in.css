@@ -1,11 +1,17 @@
 .query_field{
     display: inline-block;
     height: 35px;
-    width: auto;
-    margin: 10px;
+    width: 80%;
+
+    padding-left: 0.5rem;;
 }
 
 .query_container{
     display: flex;
     justify-content: center;
+}
+
+#button_container{
+    width: 20%;
+    padding-left: 0.2em;
 }
