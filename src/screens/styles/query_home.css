@@ -1,12 +1,13 @@
 #main{
 width:78%;
-display: inline-block;
+/* display: inline-block; */
 float: left;
+min-width: 680px;
 }
 
 #side{
 width:22%;
-display: inline-block;
+/* display: inline-block; */
 float: right;
 }
 

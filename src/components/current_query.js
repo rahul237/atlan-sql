@@ -4,13 +4,15 @@ import "./styles/current_query.css";
 
 export default function CurrentQuery() {
     return (
-        <div className="current_query">
+        <div className="margin">
+        <div className="subhead">
             Current query
-            <div id="current_query_box">
-                GET ALL ROWS
+        </div>
 
+            <div className="sidecontainer">
+            SELECT * FROM People
             </div>
-            <Button>SAVE</Button>
+            <Button>SAVE CURRENT QUERY</Button>
         </div>
     )
 }

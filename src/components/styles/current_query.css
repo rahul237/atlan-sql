@@ -3,13 +3,11 @@
     display: block;
     /* width: 150px; */
     /* height: 100px; */
+    /* margin-bottom: 1rem;; */
 }
 
-#current_query_box{
-    background-color: white;
-    justify-content: center;
-    width: 90%;
-    height: 90%;
-    min-height: 50px;
-    margin: 5%;
+.selected{
+    font-weight: bold;
+    color:#2026d2;
 }
+
