@@ -6,6 +6,7 @@ import './App.css';
 import { useTable } from 'react-table';
 
 import QueryHome from './screens/query_home';
+import SelectDb from './screens/select_db';
 
 
 function App() {
@@ -110,9 +111,10 @@ function App() {
 
     {/* <Select_db/> */}
     {/* <View_tables/> */}
-    <QueryHome/>
+    {/* <QueryHome/> */}
     {/* <Chart_builder/> */}
     {/* <ChartView/> */}
+    <SelectDb></SelectDb>
 
     </>
     

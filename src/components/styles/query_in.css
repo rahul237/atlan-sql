@@ -1,7 +1,7 @@
 .query_field{
     display: inline-block;
     height: 35px;
-    width: 300px;;
+    width: auto;
     margin: 10px;
 }
 

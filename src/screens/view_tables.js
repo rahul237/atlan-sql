@@ -1,7 +1,7 @@
 import React from 'react'
 import TableTile from '../components/Table_tile'
 
-export default function View_tables() {
+export default function ViewTables() {
     return (
         <div>
             Your tables

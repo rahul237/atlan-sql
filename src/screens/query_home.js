@@ -9,10 +9,11 @@ import Button from '../components/Button'
 import TableView from '../components/table_view'
 
 import "./styles/query_home.css"
+import QueryHeading from '../components/query_heading'
 
 export default function QueryHome() {
     return (
-        <div>
+        <div id="query_home">
             {/* Query Home */}
 
             <div id="side">
@@ -26,6 +27,7 @@ export default function QueryHome() {
             </Sidebar>
             </div>
             <div id="main">
+            <QueryHeading>People</QueryHeading>
             <QueryIn/>
             <TableView/>
             </div>

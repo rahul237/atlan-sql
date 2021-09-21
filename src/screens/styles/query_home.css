@@ -9,3 +9,7 @@ width:25%;
 display: inline-block;
 float: right;
 }
+
+#query_home{
+    padding: 0.5em;
+}
