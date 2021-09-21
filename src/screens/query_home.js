@@ -10,6 +10,7 @@ import TableView from '../components/table_view'
 
 import "./styles/query_home.css"
 import QueryHeading from '../components/query_heading'
+import TableList from '../components/table_list'
 
 export default function QueryHome() {
     return (
@@ -18,16 +19,20 @@ export default function QueryHome() {
 
             <div id="side">
             <Sidebar>
+                <TableList/>
                 <CurrentQuery/>
                 <SavedQueries/>
                 <ChartBuilder/>
-                <Button>Show chart</Button>
-
-                <Button>Download data</Button>
+                <div className="margin">
+                <Button>SHOW CHART</Button>
+                </div>
+                <div className="">
+                <Button>DOWNLOAD DATA</Button>
+                </div>
             </Sidebar>
             </div>
             <div id="main">
-            <QueryHeading>People</QueryHeading>
+            <QueryHeading>SampleDB</QueryHeading>
             <QueryIn/>
             <TableView/>
             </div>
